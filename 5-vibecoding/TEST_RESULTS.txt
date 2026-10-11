@@ -1,0 +1,25 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_board_size_validation (test_dots_and_boxes.TestDotsAndBoxes.test_board_size_validation) ... ok
+test_completes_two_boxes_at_once (test_dots_and_boxes.TestDotsAndBoxes.test_completes_two_boxes_at_once) ... ok
+test_completion_of_one_box (test_dots_and_boxes.TestDotsAndBoxes.test_completion_of_one_box) ... ok
+test_computer_prefers_completing_box (test_dots_and_boxes.TestDotsAndBoxes.test_computer_prefers_completing_box) ... ok
+test_end_of_game_and_no_moves_after_game_over (test_dots_and_boxes.TestDotsAndBoxes.test_end_of_game_and_no_moves_after_game_over) ... ok
+test_invalid_and_repeated_move_do_not_change_state (test_dots_and_boxes.TestDotsAndBoxes.test_invalid_and_repeated_move_do_not_change_state) ... ok
+test_malformed_input (test_dots_and_boxes.TestDotsAndBoxes.test_malformed_input) ... ok
+test_undo_restores_board_score_and_turn (test_dots_and_boxes.TestDotsAndBoxes.test_undo_restores_board_score_and_turn) ... ok
+test_valid_horizontal_move (test_dots_and_boxes.TestDotsAndBoxes.test_valid_horizontal_move) ... ok
+test_valid_vertical_move (test_dots_and_boxes.TestDotsAndBoxes.test_valid_vertical_move) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK
